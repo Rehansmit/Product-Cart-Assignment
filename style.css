@@ -10,9 +10,8 @@ background: linear-gradient(90deg, rgba(71,254,140,1) 0%, rgba(64,254,226,1) 35%
 }
 
 .main{
-    width: 10px auto;
+    width: max-content;
 height: max-content;
-margin: 10px auto;
 display: inline-block
 
 
@@ -20,12 +19,12 @@ display: inline-block
 
 .cart1{
     background-color: #ffffff;
-    width: 400px;
+    width: 350px;
     max-height: max-content;
     margin-top: 50px;
     margin-left: 100px;
     border-radius: 10px;    
-    display: inline-block;
+    
     
 }
 .p1{
@@ -46,6 +45,7 @@ h3{
 .p2{
     color:plum ;
     margin-left: 20px;
+    margin-top: 20px;
 }
 .p3{
     color: black;
@@ -60,6 +60,7 @@ h3{
     max-height: max-content;
     margin:10px auto;
     border-radius: 10px;     */
+    
   
     
 }
