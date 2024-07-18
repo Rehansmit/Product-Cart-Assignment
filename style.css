@@ -7,24 +7,22 @@
 body{
     background: rgb(71,254,140);
 background: linear-gradient(90deg, rgba(71,254,140,1) 0%, rgba(64,254,226,1) 35%, rgba(211,57,55,1) 100%);
+
 }
 
 .main{
     width: max-content;
 height: max-content;
-display: inline-block
-
-
+display: flex;
+margin: 10px auto;
 }
 
 .cart1{
     background-color: #ffffff;
     width: 350px;
     max-height: max-content;
-    margin-top: 50px;
-    margin-left: 100px;
     border-radius: 10px;    
-    
+    margin-top: 50px;
     
 }
 .p1{
@@ -55,47 +53,25 @@ h3{
 }
 
 .cart2{
-    /* background-color: #ffffff;
-    width: 400px;
+    background-color: #ffffff;
+    width: 350px;
     max-height: max-content;
-    margin:10px auto;
-    border-radius: 10px;     */
-    
-  
-    
+    border-radius: 10px;    
+    margin-left: 50px;
+    margin-top: 50px;
+   
 }
 
-/* .button{
-    display: inline-block;
-    height: 50px;
-    width: 100px;
-} */
 
-
-.button{
-    height: 50%;
-    width: 50px;
-    color: red;
-    font-size: large;
-    text-align: center;
-    padding: 10px;
-    margin-left: 10px;
-    
-
-/* }
-.button2{
-    height: 50px;
-    width: 50px;
-    color: blue;
-    font-size: large;
-    text-align: center;
-    padding: 10px; */
-    
-    
-}
-h1{
-    text-align: center;
-    color: white;
-}
 .img{
-    text-align: center;
+    text-align: center;}
+
+    .btn{
+        display: flex;
+        font-size: medium;
+        gap:10px;
+        
+
+    } 
+
+    
